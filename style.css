@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 686px;
+    height: 464px;
+    flex-shrink: 0;
+    background: #0019F9;
+    position: relative;
+}
+.box{
+    width: 253px;
+    height: 190px;
+    flex-shrink: 0;
+    background: #F80303;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
